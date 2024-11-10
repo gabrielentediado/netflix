@@ -1,0 +1,106 @@
+body {
+  background-color: var(--preta);
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #fff;
+}
+
+.container {
+  margin-left: 20px;
+}
+
+.filme-principal .container {
+  width: 40%;
+}
+
+.filme-principal {
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 100%),
+    url("../img/wallpaperflare.com_wallpaper.jpg");
+  background-size: cover;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal .titulo {
+  font-size: 40px;
+}
+
+.filme-principal .descricao {
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.filme-principal .botoes .botao {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #fff;
+  padding: 15px 30px;
+  margin-right: 15px;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: background-color 1s ease, color 1s ease;
+}
+
+.filme-principal .botoes .botao:hover {
+  background-color: rgb(233, 230, 230);
+  color: black;
+}
+
+.filme-principal .botoes .botao i {
+  margin-right: 10px;
+}
+
+.carrosel-filmes {
+  margin-top: 5px;
+}
+
+.carrosel-filmes .box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+.rodape {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 100px;
+  text-align: center;
+  background-color: rgb(51, 50, 50);
+  margin-top: 20px;
+}
+
+.rodape img {
+  width: 200px;
+}
+
+.rodape a,
+.rodape a:visited {
+  color: yellow;
+  text-decoration: none;
+}
