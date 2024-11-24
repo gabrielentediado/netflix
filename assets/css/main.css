@@ -37,7 +37,7 @@ header nav a:hover {
 .filme-principal {
   font-size: 16px;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 100%),
-    url("../img/wallpaperflare.com_wallpaper.jpg");
+    url("");
   background-size: cover;
   height: 450px;
   display: flex;
